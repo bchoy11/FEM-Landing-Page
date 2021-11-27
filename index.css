@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+*{
+    font-family: 'Barlow';
+    color: hsl(232, 10%, 55%);
+}
+
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, .learn-more, .name{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    color: black;
+}
+
+.testimonials{
+    color: hsl(213, 9%, 39%);
+}
+
+.container, .testimonials-container{
+    padding: 1.5rem;
+}
+
+.testimonials, .name, .learn-more{
+    margin-top: 1rem;
+}
+
+.testimonials{
+    margin-bottom: 1rem;
+}
+
+img{
+    width: 100%;
+}
+
+.profile-pic{
+    margin: 2rem 0 1.5rem 0;
+    border-radius: 50%;
+    width: 20%;
+}
