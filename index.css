@@ -2,6 +2,7 @@
 
 *{
     font-family: 'Barlow';
+    font-size: 18px;
     color: hsl(232, 10%, 55%);
 }
 
@@ -14,6 +15,22 @@ h1, h2, .learn-more, .name{
     font-family: 'Fraunces';
     font-weight: 900;
     color: black;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+.graphic{
+    color:hsl(167, 40%, 24%);
+}
+
+.photography{
+    color: hsl(198, 62%, 26%);
 }
 
 .testimonials{
@@ -41,3 +58,52 @@ img{
     border-radius: 50%;
     width: 20%;
 }
+
+.combined-container{
+    position: relative;
+}
+
+.offset-position{
+    position: absolute;
+    bottom: 7%;
+}
+
+.collage{
+    display: grid;
+    grid: 1fr 1fr/1fr 1fr;
+}
+
+.company, .nav-bottom, .social, .attribution{
+    background-color: #90d4c5;
+}
+
+.company{
+    font-size: 5rem;
+    padding-top: 1rem;
+}
+
+.nav-bottom{
+    padding: 2rem;
+    word-spacing: 3rem;
+    color: hsl(168, 34%, 41%);
+}
+
+.social{
+    padding: 1rem 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-logo{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.logo-bottom{
+    filter: invert(48%) sepia(10%) saturate(1687%) hue-rotate(118deg) brightness(98%) contrast(88%);
+    height: 45%;
+    width: 45%;
+}
+    
