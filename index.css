@@ -25,6 +25,38 @@ h2{
     font-size: 1.75rem;
 }
 
+.nav{
+    display: none;
+}
+
+.logo{
+    position: absolute;
+    height: auto;
+    width: 33%;
+    margin: 1rem;
+}
+
+.slogan{
+    position: absolute;
+    right: auto;
+    color: white;
+    letter-spacing: .5rem;
+    top: 25%;
+}
+
+.arrow{
+    position: absolute;
+    height: 100px;
+    width: auto;
+    left: 46.6%;
+    top: 56%;
+}
+
+.banner-container{
+    position: relative;
+    height: 538px;    
+}
+
 .graphic{
     color:hsl(167, 40%, 24%);
 }
@@ -61,6 +93,7 @@ img{
 
 .combined-container{
     position: relative;
+    height: 600px;
 }
 
 .offset-position{
@@ -78,18 +111,17 @@ img{
 }
 
 .company{
-    font-size: 5rem;
-    padding-top: 1rem;
+    padding: 3rem 0 2rem 0;
 }
 
 .nav-bottom{
-    padding: 2rem;
+    padding-bottom: 1.5rem;
     word-spacing: 3rem;
     color: hsl(168, 34%, 41%);
 }
 
 .social{
-    padding: 1rem 0 1.5rem 0;
+    padding: 2.5rem;
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -102,7 +134,7 @@ img{
 }
 
 .logo-bottom{
-    filter: invert(48%) sepia(10%) saturate(1687%) hue-rotate(118deg) brightness(98%) contrast(88%);
+    filter: brightness(0) saturate(100%) invert(39%) sepia(58%) saturate(354%) hue-rotate(116deg) brightness(92%) contrast(97%);
     height: 45%;
     width: 45%;
 }
