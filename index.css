@@ -27,13 +27,27 @@ h2{
 
 .nav{
     display: none;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    background-color: white;
+    margin: 1rem;
+    width: 65%;
 }
 
 .logo{
     position: absolute;
     height: auto;
     width: 33%;
-    margin: 1rem;
+    margin: 1.5rem;
+}
+
+.menu{
+    position: absolute;
+    height: 1rem;
+    width: auto;
+    right: 0;
+    margin: 1.5rem;
 }
 
 .slogan{

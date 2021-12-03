@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel='stylesheet' href='index.css'>
+  <script src='index.js' defer></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Sunnyside agency landing page</title>
@@ -16,15 +17,25 @@
   </style>
 </head>
 <body>
-  <div class='nav'>
-    About
-    Services
-    Projects
-    Contact
-  </div>
+  
 
   <div class='banner-container'>
+    <div class='nav'>
+      <div>
+        About
+      </div>
+      <div>
+        Services
+      </div>
+      <div>
+        Projects
+      </div>
+      <div>
+        Contact
+      </div>
+    </div>
     <img src='images/logo.svg' alt='logo' class='logo'>
+    <input type='image' src='images/icon-hamburger.svg' class='menu' id='menu' onclick='showList()'>
     <h1 class='slogan'>
       WE ARE CREATIVES
     </h1>
